@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
 
 df = pd.read_csv('ecommerce_estatistica.csv')
 print(df.head().to_string())
